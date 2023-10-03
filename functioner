@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+#____________________________1
+# greet(){
+#     echo "Hi there, $1!"
+# }
+
+# echo "Greetings"
+# greet Bojack
+#_____________________________2
+# numberThings(){
+#     i=1
+#     for f in "$@"; do
+#         echo $i: "$f"
+#         ((i++))
+#     done
+#     echo "This counting was brought to you by the function $FUNCNAME!"
+# }
+
+# numberThings /*
+# echo
+# numberThings pine birch maple spruce
+
+

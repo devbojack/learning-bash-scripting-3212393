@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+# echo "While Loop"
+
+# declare -i n=0
+
+# while ((n<10))
+# do
+#     echo "n is ${n}"
+#     ((n++))
+# done
+
+# echo "\nUntil Loop"
+# declare -i x=0
+# until ((x==10)); do
+#     echo "x is $x"
+#     ((x++))
+# done
+
+# for i in 1 2 3; do echo $i; done
+
+# for y in {1..100}; do echo $y; done
+
+# for (( i=1; i<=10; i++))
+# do
+#     echo $i
+# done
+
+# declare -a fruits=("Apple" "Bananas" "Oranges")
+
+# for i in ${fruits[@]}
+# do
+#     echo $i
+# done
+
+# declare -A var
+# var["name"]="Scott"
+# var["id"]="123"
+# for i in "${!var[@]}"
+# do
+#     echo $i: "${var[$i]}"
+# done
+
+# for i in $(ls); do echo "Found file: $i"; done
+
+for i in *; do echo "Found a file: $i"; done
